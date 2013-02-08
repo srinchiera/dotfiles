@@ -4,13 +4,12 @@ Salvatore's Vim Settings
 Installation
 --------
 
-    `git clone git://github.com/nelstrom/dotvim.git ~/.vim`
+    `git clone git@github.com:srinchiera/dotfiles.git ~/.vim`
 
 Create symlinks:
 --------
 
     `ln -s ~/.vim/vimrc ~/.vimrc`
-    `ln -s ~/.vim/gvimrc ~/.gvimrc`
 
 Switch to the `~/.vim` directory, and fetch submodules:
 --------

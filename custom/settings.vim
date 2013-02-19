@@ -15,4 +15,7 @@ set incsearch " search as you type
 set ignorecase
 set smartcase
 
+filetype on
+set tags=tags;/ " recursively search parent directory for tags
+
 "set cursorline " highlight cursor line

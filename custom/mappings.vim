@@ -42,4 +42,8 @@ imap <C-J> <Esc><C-W>j
 imap <C-K> <Esc><C-W>k
 imap <C-L> <Esc><C-W>l
 
+" ctags
+:nnoremap <silent><Leader><C-t> <C-w><C-]><C-w>T "jump to ctag in new tab
+:nnoremap <silent><Leader><C-s> <C-w><C-]> "jump to ctag in split window
+
 :nmap cp :let @" = expand("%")<CR>

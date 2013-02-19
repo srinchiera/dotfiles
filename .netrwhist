@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/jharvard/.vim/.git'
 let g:netrw_dirhist_2='/home/jharvard/os161/kern/arch/mips/locore'
 let g:netrw_dirhist_3='/home/jharvard/os161/kern'
+let g:netrw_dirhist_4='/home/jharvard/.vim'
+let g:netrw_dirhist_5='/home/jharvard/os161/common/libc'
+let g:netrw_dirhist_6='/home/jharvard/.vim'

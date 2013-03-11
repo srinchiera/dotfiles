@@ -47,3 +47,10 @@ imap <C-L> <Esc><C-W>l
 :nnoremap <silent><Leader><C-s> <C-w><C-]> "jump to ctag in split window
 
 :nmap cp :let @" = expand("%")<CR>
+
+" Naviage tabs easier
+nmap <Space>h gT
+nmap <Space>l gt
+
+
+nmap tn :tabnew<CR>

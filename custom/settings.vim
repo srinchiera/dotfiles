@@ -15,6 +15,13 @@ set incsearch " search as you type
 set ignorecase
 set smartcase
 
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
+autocmd Filetype html,javascript setlocal ts=2 sts=2 sw=2
+
 filetype on
 set tags=tags;/ " recursively search parent directory for tags
 

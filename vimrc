@@ -2,7 +2,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colorscheme jellybeans
+colorscheme nightsky
 
 source $HOME/.vim/custom/plugins.vim
 source $HOME/.vim/custom/settings.vim

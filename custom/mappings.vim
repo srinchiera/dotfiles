@@ -52,5 +52,6 @@ imap <C-L> <Esc><C-W>l
 nmap <Space>h gT
 nmap <Space>l gt
 
-
 nmap tn :tabnew<CR>
+
+cmap w!! w !sudo tee %

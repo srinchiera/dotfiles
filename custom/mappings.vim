@@ -52,5 +52,10 @@ imap <C-L> <Esc><C-W>l
 nmap <Space>h gT
 nmap <Space>l gt
 
-
 nmap tn :tabnew<CR>
+
+" When you need to update all the tabs
+command! EE tabdo e
+
+" Toggles paste
+nnoremap <Leader>sp :set invpaste paste?<CR>

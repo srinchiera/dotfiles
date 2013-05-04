@@ -1,4 +1,1 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/jharvard/cs161/root'
-let g:netrw_dirhist_2='/home/jharvard/os161/kern/vm'
+

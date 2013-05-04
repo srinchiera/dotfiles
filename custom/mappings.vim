@@ -59,3 +59,5 @@ command! EE tabdo e
 
 " Toggles paste
 nnoremap <Leader>sp :set invpaste paste?<CR>
+
+cmap w!! w !sudo tee %

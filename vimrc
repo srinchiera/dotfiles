@@ -2,6 +2,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+au BufNewFile,BufRead *.go set ft=go
+
 colorscheme jellybeans
 
 source $HOME/.vim/custom/plugins.vim

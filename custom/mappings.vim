@@ -8,7 +8,7 @@ command! Q q
 inoremap {<CR> {<CR>}<ESC>O
 
 " Clear all trailing spaces
-map <Leader>c :%s/\s\+$//<CR>:nohl<CR>
+map <Leader>r :%s/\s\+$//<CR>:nohl<CR>
 
 " Mapping shortcut to remove highlight
 map <Leader><Space> :nohl<CR>
@@ -61,3 +61,5 @@ command! EE tabdo e
 nnoremap <Leader>sp :set invpaste paste?<CR>
 
 cmap w!! w !sudo tee %
+
+set pastetoggle=<F2>

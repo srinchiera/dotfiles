@@ -7,7 +7,7 @@ set encoding=utf-8
 
 set list       " show trailing whitespace and tabs
 set listchars=tab:\|\ ,trail:●,extends:>,precedes:<,nbsp:+
-set mouse=a    " scroll with mouse
+"set mouse=a    " scroll with mouse
 set ruler
 set hlsearch
 set incsearch " search as you type

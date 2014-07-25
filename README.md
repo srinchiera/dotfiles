@@ -6,7 +6,7 @@ Installation
 
     git clone https://github.com/srinchiera/dotfiles.git
 
-Create symlinks:
+Run install script:
 --------
 
     chmod 766 install.sh

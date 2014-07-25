@@ -9,8 +9,7 @@ Installation
 Run install script:
 --------
 
-    chmod 766 .vim/install.sh
-    .vim/.install.sh
+    .vim/install.sh
 
 Add a plugin from a git repository
 --------

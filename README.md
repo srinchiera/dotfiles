@@ -4,13 +4,13 @@ Salvatore's Vim Settings
 Installation
 --------
 
-    git clone https://github.com/srinchiera/dotfiles.git
+    git clone https://github.com/srinchiera/dotfiles.git .vim
 
 Run install script:
 --------
 
-    chmod 766 install.sh
-    ./install.sh
+    chmod 766 .vim/install.sh
+    .vim/.install.sh
 
 Add a plugin from a git repository
 --------

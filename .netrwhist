@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/srinchiera/Desktop'
-let g:netrw_dirhist_2='/Users/srinchiera/Downloads/gcc-4.8.1/INSTALL'
-let g:netrw_dirhist_3='/Users/srinchiera/.ssh'
-let g:netrw_dirhist_4='/Users/srinchiera/Downloads/libspotify-12.1.51-Darwin-universal/examples/Randomify'
-let g:netrw_dirhist_5='/Users/srinchiera/.ssh'

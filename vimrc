@@ -4,7 +4,7 @@ filetype plugin indent on
 
 au BufNewFile,BufRead *.go set ft=go
 
-colorscheme jellybeans
+colorscheme smyck
 
 source $HOME/.vim/custom/plugins.vim
 source $HOME/.vim/custom/settings.vim

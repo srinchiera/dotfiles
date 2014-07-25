@@ -3,7 +3,7 @@
 	url = git://github.com/scrooloose/nerdtree.git
 [submodule "bundle/colorschemes"]
 	path = bundle/colorschemes
-	url = git://github.com/flazz/vim-colorschemes.git
+	url = git://github.com/srinchiera/vim-colorschemes.git
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git

@@ -24,4 +24,23 @@ autocmd Filetype html,javascript setlocal ts=2 sts=2 sw=2
 filetype on
 set tags=tags;/ " recursively search parent directory for tags
 
-"set cursorline " highlight cursor line
+" Turn on the WiLd menu
+set wildmenu
+
+" Ignore compiled files
+set wildignore=*.o,*~,*.pyc
+
+set backspace=eol,start,indent
+set whichwrap+=<,>,h,l
+
+" Don't redraw while executing macros (good performance config)
+set lazyredraw
+
+" For regular expressions turn magic on
+set magic
+
+" Show matching brackets when text indicator is over them
+set showmatch
+
+
+

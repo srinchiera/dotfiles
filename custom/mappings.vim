@@ -48,9 +48,24 @@ imap <C-L> <Esc><C-W>l
 
 :nmap cp :let @" = expand("%")<CR>
 
-" Naviage tabs easier
-nmap <Space>h gT
-nmap <Space>l gt
+
+" To open a new empty buffer
+" This replaces :tabnew which I used to bind to this mapping
+nmap <leader>T :enew<cr>
+
+" Move to the next buffer
+nmap <Space>l :bnext<CR>
+
+" Move to the previous buffer
+nmap <Space>h :bprevious<CR>
+
+" Close the current buffer and move to the previous one
+" This replicates the idea of closing a tab
+nmap <Leader>bq :bp <BAR> bd #<CR>
+
+" Show all open buffers and their status
+nmap <Leader>bl :ls<CR>
+
 
 nmap tn :tabnew<CR>
 
@@ -62,4 +77,16 @@ nnoremap <Leader>sp :set invpaste paste?<CR>
 
 cmap w!! w !sudo tee %
 
-set pastetoggle=<F2>
+nmap <Space>1 <Plug>AirlineSelectTab1
+nmap <Space>2 <Plug>AirlineSelectTab2
+nmap <Space>3 <Plug>AirlineSelectTab3
+nmap <Space>4 <Plug>AirlineSelectTab4
+nmap <Space>5 <Plug>AirlineSelectTab5
+nmap <Space>6 <Plug>AirlineSelectTab6
+nmap <Space>7 <Plug>AirlineSelectTab7
+nmap <Space>8 <Plug>AirlineSelectTab8
+nmap <Space>9 <Plug>AirlineSelectTab9
+nmap <Space>- <Plug>AirlineSelectPrevTab
+nmap <Space>+ <Plug>AirlineSelectNextTab
+
+nmap <Leader>d :bp <BAR> bd #<CR>

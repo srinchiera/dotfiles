@@ -7,7 +7,7 @@ map <Leader>n :NERDTreeToggle<cr>
 map <Leader>t :TlistToggle<cr>
 
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/]\.(git|hg|svn)|target$',
+  \ 'dir':  '\v[\/]\.(git|hg|svn)|target|venv$',
   \ 'file': '\v\.(exe|so|dll)$',
   \ 'link': 'some_bad_symbolic_links',
   \ }

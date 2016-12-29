@@ -3,6 +3,7 @@ syntax on
 filetype plugin indent on
 
 au BufNewFile,BufRead *.go set ft=go
+au BufNewFile,BufRead *.pp set ft=puppet
 
 colorscheme jellybeans
 

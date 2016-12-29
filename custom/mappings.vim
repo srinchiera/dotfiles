@@ -53,18 +53,18 @@ imap <C-L> <Esc><C-W>l
 " This replaces :tabnew which I used to bind to this mapping
 nmap <leader>T :enew<cr>
 
-" Move to the next buffer
-nmap <Space>l :bnext<CR>
-
-" Move to the previous buffer
-nmap <Space>h :bprevious<CR>
-
 " Close the current buffer and move to the previous one
 " This replicates the idea of closing a tab
 nmap <Leader>bq :bp <BAR> bd #<CR>
 
 " Show all open buffers and their status
 nmap <Leader>bl :ls<CR>
+
+nmap <Space>h :<C-U>exe v:count1 . ':bp!'<CR>
+nmap <Space>l :<C-U>exe v:count1 . ':bn!'<CR>
+nmap <Space>j :b#<CR>
+
+nmap <C-4> :w<CR>:bd<CR>
 
 
 nmap tn :tabnew<CR>

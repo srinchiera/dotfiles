@@ -28,3 +28,27 @@ let g:ctrlp_working_path_mode = 'r'
 nmap <leader>bb :CtrlPBuffer<cr>
 nmap <leader>bm :CtrlPMixed<cr>
 nmap <leader>bs :CtrlPMRU<cr>
+
+let g:merlin_disable_default_keybindings = 0
+
+" Merlin
+let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
+execute "set rtp+=" . g:opamshare . "/merlin/vim"
+
+let g:syntastic_ocaml_checkers = ['merlin']
+
+" Merlin + Supertab
+au FileType ocaml call SuperTabSetDefaultCompletionType("<c-x><c-o>")
+
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+"map  <silent><buffer> <leader>t :MerlinTypeOf<cr>
+

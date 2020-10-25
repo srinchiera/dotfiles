@@ -90,3 +90,9 @@ nmap <Space>- <Plug>AirlineSelectPrevTab
 nmap <Space>+ <Plug>AirlineSelectNextTab
 
 nmap <Leader>d :bp <BAR> bd #<CR>
+
+" Map ctrl back space to delete previous word
+noremap! <C-BS> <C-w>
+noremap! <C-h> <C-w>
+
+
